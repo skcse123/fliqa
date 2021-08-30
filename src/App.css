@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 .body{
   text-align: center;
@@ -35,6 +35,47 @@
   color: #61dafb;
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+*{
+  margin: 0;
+  padding: 0;
+  background: rgba(248, 6, 119, 0.2);
+}
+.body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background: #E5E5E5;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+.App-header {
+  background-color: #f78e8e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(165, 19, 19);
+}
+.App-link {
+  color: #61dafb;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
